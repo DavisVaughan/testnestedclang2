@@ -2,7 +2,7 @@
 #define R_LIB_CODE2_H
 
 
-#include "r.h"
+#include "core.h"
 
 SEXP test_code2(SEXP x);
 

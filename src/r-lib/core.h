@@ -1,5 +1,5 @@
-#ifndef R_LIB_R_H
-#define R_LIB_R_H
+#ifndef R_LIB_CORE_H
+#define R_LIB_CORE_H
 
 
 #define R_NO_REMAP
