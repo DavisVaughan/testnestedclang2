@@ -1,5 +1,6 @@
 SOURCES_PKG = \
-	code.c
+	code.c \
+	code3.c
 
 SOURCES_R_LIB = \
 	r-lib/code2.c
