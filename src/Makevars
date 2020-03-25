@@ -1,0 +1,16 @@
+SOURCES_PKG = \
+	code.c
+
+SOURCES_R_LIB = \
+	r-lib/code2.c
+
+SOURCES = $(SOURCES_PKG) $(SOURCES_R_LIB)
+
+OBJECTS = $(SOURCES:.c=.o)
+
+all: $(SHLIB)
+
+.PHONY: clean
+
+clean:
+	rm -f $(OBJECTS)
